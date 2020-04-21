@@ -1,0 +1,38 @@
+body {
+  background: #eee;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  border: 1px solid #ced4da;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 3px;
+  width: 200px;
+  background: #fff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.tooltip h3 {
+  border-bottom: 1px solid lightblue;
+  margin: 0;
+}
+
+.tooltip-active {
+  display: inline-block;
+}
